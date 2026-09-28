@@ -1,1 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --color-kivu-50:  #f0f9fa;
+  --color-kivu-100: #d9f0f2;
+  --color-kivu-200: #b3e0e6;
+  --color-kivu-300: #7ec8d3;
+  --color-kivu-400: #48a9b8;
+  --color-kivu-500: #2d8b9c;
+  --color-kivu-600: #237284;
+  --color-kivu-700: #1e5c6b;
+  --color-kivu-800: #1c4a56;
+  --color-kivu-900: #1a3e48;
+
+  --color-sand-100: #faf6f0;
+  --color-sand-200: #f5ead9;
+  --color-sand-300: #e8d3ae;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Playfair Display', serif;
+}
+
+html { scroll-behavior: smooth; }
+body { font-family: 'Inter', sans-serif; }
